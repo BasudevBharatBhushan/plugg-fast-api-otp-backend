@@ -1,0 +1,22 @@
+INFO - 2023-05-16 11:14:26,483 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:16:32,539 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:16:53,536 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:19:43,180 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:20:19,415 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:22:46,125 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:23:05,136 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:23:15,056 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:24:03,816 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:24:40,813 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:25:15,060 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:25:30,538 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 11:26:10,175 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 13:11:50,684 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 13:32:34,903 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 13:32:46,994 - dbclient - dbclient.py - 19 - Connected to database 
+ERROR - 2023-05-16 13:56:40,980 - dbclient - dbclient.py - 21 - Failed to connect to database: The resolution lifetime expired after 20.014 seconds: Server 203.153.41.28 UDP port 53 answered The DNS operation timed out.; Server 203.153.44.44 UDP port 53 answered The DNS operation timed out.; Server 8.8.8.8 UDP port 53 answered The DNS operation timed out.; Server 4.2.2.2 UDP port 53 answered The DNS operation timed out.; Server 203.153.41.28 UDP port 53 answered The DNS operation timed out.; Server 203.153.44.44 UDP port 53 answered The DNS operation timed out.; Server 8.8.8.8 UDP port 53 answered The DNS operation timed out.; Server 4.2.2.2 UDP port 53 answered The DNS operation timed out.; Server 203.153.41.28 UDP port 53 answered The DNS operation timed out.; Server 203.153.44.44 UDP port 53 answered The DNS operation timed out. 
+INFO - 2023-05-16 13:57:58,122 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 14:13:22,886 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 15:10:29,322 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 15:26:49,589 - dbclient - dbclient.py - 19 - Connected to database 
+INFO - 2023-05-16 15:32:28,384 - dbclient - dbclient.py - 19 - Connected to database 
