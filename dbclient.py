@@ -2,18 +2,10 @@ from pymongo import MongoClient
 from dotenv import load_dotenv, dotenv_values
 from utils.logging import logging
 
-load_dotenv()
 
-db_config = dotenv_values(".env")
-DB_URL = db_config.get("DB_URL")
-
-
-if DB_URL is None:
-    logging.error("DB_URL not found in environment variables")
-    raise Exception("DB_URL not found")
 
 try:
-    client = MongoClient(host=DB_URL)
+    client = MongoClient(host='mongodb+srv://admin-basudev:OoAkYrt6dz3DGZQF@cluster0.nbsww.mongodb.net/?retryWrites=true&w=majority')
     db = client.pluggwaitlist
     collection = db.users
     logging.info("Connected to database")
