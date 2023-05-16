@@ -1,8 +1,14 @@
 from pymongo import MongoClient
-from utils.logging import logging
+import logging
+
+DB_URL = 'mongodb+srv://admin-basudev:OoAkYrt6dz3DGZQF@cluster0.nbsww.mongodb.net/?retryWrites=true&w=majority'
+
+if DB_URL is None:
+    logging.error("DB_URL not found in environment variables")
+    raise Exception("DB_URL not found")
 
 try:
-    client = MongoClient(host='mongodb+srv://admin-basudev:OoAkYrt6dz3DGZQF@cluster0.nbsww.mongodb.net/?retryWrites=true&w=majority')
+    client = MongoClient(host=DB_URL)
     db = client.pluggwaitlist
     collection = db.users
     logging.info("Connected to database")
