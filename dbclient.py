@@ -1,8 +1,5 @@
 from pymongo import MongoClient
-from dotenv import load_dotenv, dotenv_values
 from utils.logging import logging
-
-
 
 try:
     client = MongoClient(host='mongodb+srv://admin-basudev:OoAkYrt6dz3DGZQF@cluster0.nbsww.mongodb.net/?retryWrites=true&w=majority')
